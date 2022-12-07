@@ -1,0 +1,150 @@
+body{
+  margin: 0 auto; 
+  background-color: gainsboro;  
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+.logo{
+   float: left;
+   padding: 15px;
+}
+.search{
+    float: right;
+    padding: 15px;
+}
+.clearfix{
+    clear: both;
+}
+.main-menu{
+    background-color: teal;
+}
+.main-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+.main-menu > ul > li{
+    display:inline-block;
+
+}
+.main-menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.main-menu > ul > li > a:hover{
+    background-color: blue;
+
+}
+.drop{
+    list-style: none;
+    margin:0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+}
+.drop > li>a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: black;
+  
+
+}
+.drop > li > a:hover{
+    background-color: blue;
+
+}
+.main-menu > ul > li:hover .drop{
+    display: block;
+
+}
+.banner img{
+    width: 1000px;
+    height: 650px;
+    
+}
+.widget{
+    background-color: rgb(37, 37, 182);
+    padding:25px;
+    float: right;
+    width: 200px;
+    height: 160px;
+    
+    margin:0px;
+}
+
+.wid{
+    list-style: none;
+}
+.wid>li>a{
+    color: white;
+    text-decoration: none;
+}
+
+.p{
+    width: 700px;
+    float: left;
+    padding: 15px;
+    background-color: white;
+    text-align: left;
+}
+.footer{
+    background-color: black;
+    color: white;
+   
+}
+.menu{
+    width: 400px;
+    float: left;
+   
+}
+.me> li >a{
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 400px;
+    height: auto;
+}
+.address{
+    width: 400px;
+   float: right;
+}
+.copy{
+    text-align: center;
+}
+.product{
+    width:295px;
+    height: auto;
+    float: left;
+    padding: 15px;
+    border: 3px solid;
+    border-color: black;
+}
+.product img{
+    width:300px;
+    height: auto;
+}
+.B{
+    text-align: center;
+    background-color: blueviolet;
+    height: 35px;
+}
+.B:hover{
+    background-color: orange;
+}
+.map{
+    width: 1000px;
+    height: auto;
+}
