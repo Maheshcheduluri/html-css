@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=deviice-width, initialscale=1.0">
+        <title>Document</title>
+<style>
+    body{
+  margin: 0 auto; 
+  background-color: gainsboro;  
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+.logo{
+   float: left;
+   padding: 15px;
+}
+.search{
+    float: right;
+    padding: 15px;
+}
+.clearfix{
+    clear: both;
+}
+.main-menu{
+    background-color: teal;
+}
+.main-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+.main-menu > ul > li{
+    display:inline-block;
+
+}
+.main-menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.main-menu > ul > li > a:hover{
+    background-color: blue;
+
+}
+.drop{
+    list-style: none;
+    margin:0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+}
+.drop > li>a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: black;
+  
+
+}
+.drop > li > a:hover{
+    background-color: blue;
+
+}
+.main-menu > ul > li:hover .drop{
+    display: block;
+
+}
+.banner img{
+    width: 1000px;
+    height: 650px;
+    
+}
+.widget{
+    background-color: rgb(37, 37, 182);
+    padding:25px;
+    float: right;
+    width: 200px;
+    height: 160px;
+    
+    margin:0px;
+}
+
+.wid{
+    list-style: none;
+}
+.wid>li>a{
+    color: white;
+    text-decoration: none;
+}
+
+.p{
+    width: 700px;
+    float: left;
+    padding: 15px;
+    background-color: white;
+    text-align: left;
+}
+.footer{
+    background-color: black;
+    color: white;
+   
+}
+.menu{
+    width: 400px;
+    float: left;
+   
+}
+.me> li >a{
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 400px;
+    height: auto;
+}
+.address{
+    width: 400px;
+   float: right;
+}
+.copy{
+    text-align: center;
+}
+.product{
+    width:295px;
+    height: auto;
+    float: left;
+    padding: 15px;
+    border: 3px solid;
+    border-color: black;
+}
+.product img{
+    width:300px;
+    height: auto;
+}
+.B{
+    text-align: center;
+    background-color: blueviolet;
+    height: 35px;
+}
+.B:hover{
+    background-color: orange;
+}
+.map{
+    width: 1000px;
+    height: auto;
+}
+</style>
+    </head>
+
+     <body>
+        <div class="container">
+            <header>
+              <div class="logo">
+                <a href="structure.html">
+                    <img src="media/logo.jpeg"  width="100" height="100"   alt="logo">
+                   </a>
+              </div>
+              <div class="search">
+                <form>
+                    <input type="search" name="search" placeholder="search">
+                    <input type="submit" value="->" >
+                </form>
+              </div>
+
+             <div class="clearfix"></div>
+
+              <nav class="main-menu">
+                <ul>
+                    <li><a href="structure.html">Home</a></li>
+                    <li><a href="#">Services</a>
+                        <ul class="drop">
+                            <li><a href="serviceone.html">service 1</a></li>
+                           <li><a href="servicetwo.html">service 2</a></li>
+                            <li><a href="servicethree.html">service 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="login.html">Login </a></li>
+                </ul>
+              </nav>
+                
+            </header>
+            
+            <section>
+                <article>
+                    <main>
+                        <h1><B>Google</B></h1>
+                    </main>
+                      <P>Google LLC is an American multinational technology company that focuses on search engine technology,
+                         online advertising, cloud computing, computer software, quantum computing, e-commerce, artificial 
+                         intelligence,[9] and consumer electronics. It has been referred to as the "most powerful company in 
+                         the world"[10] and one of the world's most valuable brands due to its market dominance, data collection,
+                          and technological advantages in the area of artificial intelligence.[11][12][13] It is considered one 
+                          of the Big Five American information technology companies, alongside Amazon, Apple, Meta, and Microsoft.
+                      </P>
+                      <section class="banner">
+                        <img src="media/google.jpeg" alt="">
+                      </section>
+                      <P class="p">
+                        Google was founded on September 4, 1998, by Larry Page and Sergey Brin while they were PhD students at 
+                        Stanford University in California. Together they own about 14% of its publicly listed shares and control
+                         56% of the stockholder voting power through super-voting stock. The company went public via an initial 
+                         public offering (IPO) in 2004. In 2015, Google was reorganized as a wholly owned subsidiary of Alphabet
+                          Inc. Google is Alphabet's largest subsidiary and is a holding company for Alphabet's Internet properties
+                           and interests. Sundar Pichai was appointed CEO of Google on October 24, 2015, replacing Larry Page, who
+                            became the CEO of Alphabet. On December 3, 2019, Pichai also became the CEO of Alphabet.
+                      </P>
+                </article>
+            </section>
+           
+            <aside class="widget">
+                <div>
+                    <h3  >widget</h3>
+                    <ul class="wid">
+                        <li><a href="#">2004 to 2007</a></li>
+                        <li><a href="#">2008 to 2011</a></li>
+                        <li><a href="#">2012 to 2019</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="clearfix"></div>
+            <footer class="footer">
+                <div class="menu">
+                    <h3 >menu</h3>
+                    <ul  class="me">
+                        <li><a href="#">ceo</a></li>
+                        <li><a href="#">acheivements</a></li>
+                        <li><a href="#">awards</a></li>
+                        <li><a href="#">office</a></li>
+                        <li><a href="#">Alphabet</a></li>
+                    </ul>
+                </div>
+                <address class="address">
+                    <p>1000,ap,mars</p>
+                    <p><a href="mailto:lavangam@gmail.com">anupandhi@gmail.com</a></p>
+                    <p><a href="tel:1234567890">1234567890</a></p>
+                </address>
+                <div class="clearfix"></div>
+            </footer>
+
+            <div class="copy">
+                <p>copyright &copy; 2022 all rights reserved</p>
+            </div>
+
+        </div>
+        
+            
+    </body>
+</html>
